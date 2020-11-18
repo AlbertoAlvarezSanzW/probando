@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button id="botonW" mnemonicParsing="false" onMouseClicked="#mostrarImagenWinter" text="pulsa W" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button id="botonD" mnemonicParsing="false" onMouseClicked="#mostrarImagenDead" text="pulsa D" GridPane.columnIndex="1" />
+      <Label text="Deadpool" GridPane.columnIndex="2" />
+      <Label text="Winter Soldier" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <ImageView id="ImageW" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+      <ImageView id="ImageD" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
